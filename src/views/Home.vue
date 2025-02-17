@@ -49,6 +49,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
     #banner {
         display: flex;
@@ -74,6 +75,7 @@
             display: flex;
             justify-content: center;
             align-items: start;
+            flex-direction: row;
             gap: 0px;
         }
 

@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <a :href="showCheckoutURL" class="btn">Compre agora!</a>
+        <a :href="showCheckoutURL" class="btn">COMPRE AGORA!</a>
     </div>
 </template>
 
@@ -99,6 +99,6 @@
     }
 
     @media (min-width: 768px) {
-        .show-container { margin: 0px; max-width: 400px;}
+        .show-container { margin: 0px; max-width: 430px;}
     }
 </style>
