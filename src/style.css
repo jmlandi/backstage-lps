@@ -104,14 +104,16 @@ html, body {
 /* Default button */
 .btn {
   padding: 10px 20px;
-  color: #e6e5e5;
+  color: #ffffff;
   background-color: #000000;
   border-radius: 18px;
   border: 1px solid #000000;
+  font-family: 'Mosvita-expanded', sans-serif;
   transition: 0.2s all ease-out;
 }
 
 .btn:hover {
-  color: #000000;
-  background-color: #e6e5e5;
+  color: #dc1344;
+  background-color: #ffffff00;
+  border: 1px solid #dc1344;
 }

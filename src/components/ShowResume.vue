@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <a :href="showCheckoutURL" class="btn">INGRESSO</a>
+        <a :href="showCheckoutURL" class="btn">Compre agora!</a>
     </div>
 </template>
 

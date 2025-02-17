@@ -25,9 +25,9 @@
                 showCheckoutURL="https://shotgun.live/pt-br/web/events/simplesmente-roupa-nova-pelotas-rs"
             />
             <ShowResume
-                showImageFileName="show_22042025.jpg"
+                showImageFileName="show_23042025.jpg"
                 showTitle="Simplesmente Roupa Nova | Novo Hamburgo, RS"
-                showDate="22/04/2025"
+                showDate="23/04/2025"
                 showLocation="Teatro Feevale"
                 showHour="19h às 22h30"
                 showCheckoutURL="https://shotgun.live/pt-br/web/events/simplesmente-roupa-nova-nova-hamburgo-rs"
@@ -45,6 +45,11 @@
 </template>
 
 <style scoped>
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #banner {
         display: flex;
         justify-content: center;
@@ -69,17 +74,23 @@
             display: flex;
             justify-content: center;
             align-items: start;
-            gap: 2rem;
+            gap: 0px;
         }
 
         #banner {
-            width: 27.5%;
+            width: 30%;
+            justify-content: start;
+        }
+
+        #banner img {
+            max-width: 100%;
+            width: 100%;
         }
 
         #events {
             width: 60%;
             align-items: start;
-            justify-content: start;
+            justify-content: end;
             flex-direction: row;
             flex-wrap: wrap;
             gap: 3rem 1rem;
