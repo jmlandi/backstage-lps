@@ -1,0 +1,117 @@
+/* BACKSTAGE Font */
+@font-face {
+  font-family: 'Mosvita';
+  src: url('./assets/fonts/Mosvita-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita-expanded';
+  src: url('./assets/fonts/Mosvita-BlackExpanded.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita';
+  src: url('./assets/fonts/Mosvita-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita-expanded';
+  src: url('./assets/fonts/Mosvita-BoldExpanded.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita';
+  src: url('./assets/fonts/Mosvita-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita-expanded';
+  src: url('./assets/fonts/Mosvita-Expanded.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita';
+  src: url('./assets/fonts/Mosvita-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita';
+  src: url('./assets/fonts/Mosvita-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita-expanded';
+  src: url('./assets/fonts/Mosvita-SemiBoldExpanded.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita';
+  src: url('./assets/fonts/Mosvita-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mosvita-expanded';
+  src: url('./assets/fonts/Mosvita-ExtraBoldExpanded.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Default */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mosvita', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html, body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Expanded Text */
+.expanded {
+  font-family: 'Mosvita-expanded', sans-serif;
+}
+
+/* Default button */
+.btn {
+  padding: 10px 20px;
+  color: #e6e5e5;
+  background-color: #000000;
+  border-radius: 18px;
+  border: 1px solid #000000;
+  transition: 0.2s all ease-out;
+}
+
+.btn:hover {
+  color: #000000;
+  background-color: #e6e5e5;
+}
